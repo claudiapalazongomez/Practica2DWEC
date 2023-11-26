@@ -1,15 +1,7 @@
-// Accedemos a cada elemento por su id y lo almacenamos en variables
-
-// Usando JAVASCRIPT
-let cuerpoTabla = document.getElementById("cuerpo-tabla");
-let producto = document.getElementById("producto");
-let cantidad = document.getElementById("cantidad");
-let precioUnitario = document.getElementById("precio-unitario");
-let descuento = document.getElementById("descuento");
-let agregarLinea = document.getElementById("agregarLinea");
-
-// Usando JQUERY
+/*JQUERY*/
+// Esperamos a que el documento se cargue antes de ejecutar el código JQuery
 $(document).ready(function () {
+  // Guardamos cada elemento en una variable
   let cuerpoTabla = $("#cuerpo-tabla");
   let producto = $("#producto");
   let cantidad = $("#cantidad");
