@@ -12,9 +12,9 @@ $(document).ready(function () {
     let descuento = $("#descuento").val();
 
     // Mostramos los valores por consola
-    console.log("Producto (JQuery):", producto);
-    console.log("Cantidad (JQuery):", cantidad);
-    console.log("Precio unitario (JQuery):", precioUnitario);
-    console.log("Descuento (JQuery):", descuento);
+    console.log("Producto:", producto);
+    console.log("Cantidad:", cantidad);
+    console.log("Precio unitario:", precioUnitario);
+    console.log("Descuento:", descuento);
   });
 });
